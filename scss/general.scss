@@ -1,0 +1,290 @@
+body{
+  background: white;
+  font-family: 'Lato';
+
+
+  // header
+  header{
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background: white;
+
+
+
+    p{
+      margin-left: 100px;
+      line-height: 45px;
+      font-size: 20px;
+    }
+    a{
+      font-size: 15px;
+      width: auto;
+      height: 30px;
+      margin: 7px 0;
+      margin-right: 100px;
+      text-decoration: none;
+      background: #1982f0;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+
+    }
+  }
+
+  // Sign up
+
+  .signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/bg-masthead.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+
+      h1{
+        color: white;
+        font-size: 40px;
+        margin: 0 20px;
+      }
+
+      .up{
+        display: flex;
+
+        margin-top: 30px;
+
+
+          input{
+
+            width: 400px;
+            margin: 0 10px;
+            border-radius: 5px;
+
+          }
+        ::placeholder{
+            font-family: 'Lato';
+            font-size: 17px;
+            color: grey;
+            padding-left: 10px;
+
+        }
+        .button{
+
+          background: #1982f0;
+          color: white;
+
+
+          padding: 6px 30px;
+          border-radius: 5px;
+        }
+      }
+  }
+
+}
+
+
+// icons
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 350px;
+  background: #eee;
+
+  .icon{
+    margin: 0 50px;
+    width: 300px;
+  }
+
+    i{
+      font-weight: 900;
+      color: #1982f0;
+      font-size: 75px;
+      margin-bottom: 20px;
+
+
+
+    }
+}
+.icon p{
+    color: grey;
+    margin-top: 10px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+  h2{
+    font-weight: 500;
+  }
+
+  // showcase
+
+.row{
+  width: 100%;
+  height: 400px;
+  display: flex;
+
+
+  .txt{
+    width: 50%;
+    padding: 90px;
+
+    p{
+      color: grey;
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
+  img{
+    width: 50%;
+  }
+}
+.row2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+
+
+  .txt{
+    width: 50%;
+    padding: 90px;
+
+    p{
+      color: grey;
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
+  img{
+    width: 50%;
+  }
+}
+
+
+// people
+
+
+.talking{
+  background: #eee;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .people{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    .person{
+      margin: 40px 40px;
+      text-align: center;
+
+      img{
+        width: 100px;
+        border-radius: 50px;
+        filter: drop-shadow(0px 5px 5px grey);
+      }
+      p{
+        color: grey;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+// signup again
+
+.bottomsignup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/bg-masthead.jpg);
+  background-position: center;
+  width: 100%;
+  height: 250px;
+
+    h2{
+      color: white;
+      margin: 0 20px;
+
+    }
+
+    .bottomup{
+      display: flex;
+      margin-top: 30px;
+
+
+
+        input{
+          margin: 0 5px;
+          height: 35px;
+          width: 400px;
+          border-radius: 5px;
+        }
+      ::placeholder{
+          font-family: 'Lato';
+          font-size: 17px;
+          color: grey;
+          padding-left: 10px;
+
+      }
+      .bottombutton{
+        margin-left: 5px;
+        background: #1982f0;
+        color: white;
+        padding: 6px 30px;
+        border-radius: 5px;
+      }
+    }
+}
+
+
+// footer
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+
+  ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 100px;
+
+
+    li{
+      margin: 0 10px;
+
+    }
+
+    a{
+      text-decoration: none;
+      color: #1982f0;
+    }
+
+  }
+
+  .social{
+    margin-right: 100px;
+
+    i{
+      color: #1982f0;
+      font-size: 20px;
+      margin: 0 10px;
+    }
+  }
+
+}

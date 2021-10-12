@@ -1,0 +1,30 @@
+header{
+
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background: white;
+
+  
+
+  p{
+    margin-left: 100px;
+    line-height: 45px;
+    font-size: 20px;
+  }
+  a{
+    font-size: 15px;
+    width: auto;
+    height: 30px;
+    margin: 7px 0;
+    margin-right: 100px;
+    text-decoration: none;
+    background: #1982f0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+  }
+}

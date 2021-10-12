@@ -1,0 +1,219 @@
+@media (max-width: 630px) {
+
+
+  // header
+  header{
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 80px !important;
+    width: 100%;
+    background: white;
+
+
+
+    p{
+      margin-left: 20px !important;
+      line-height: 45px;
+      font-size: 30px !important;
+    }
+    a{
+      font-size: 20px !important;
+      width: auto;
+      height: 35px !important;
+      margin: 7px 0;
+      margin-right: 20px !important;
+      text-decoration: none;
+      background: #1982f0;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+
+    }
+  }
+
+  // signup mobile
+.signup{
+  height: 600px !important;
+
+  h1{
+    font-size: 30px !important;
+    text-align: center;
+    margin: 0 10px;
+  }
+  .up{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+
+    input{
+      width: 95% !important;
+      height: 45px;
+    }
+
+    .button{
+      text-align: center;
+      height: 45px;
+      width: 95%;
+      margin: 10px 10px;
+      line-height: 30px;
+      font-size: 25px;
+    }
+
+}
+
+}
+
+
+.icons{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 1000px;
+  background: #eee;
+
+
+  .icon{
+    margin: 50px 0;
+    width: 100%;
+  }
+}
+
+.showcase{
+
+
+.row{
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+
+
+
+  .txt{
+    width: 100%;
+
+    padding: 40px;
+  }
+  img{
+    width: 100%;
+    height: 500px;
+
+
+  }
+}
+.row2{
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  margin: 60px 0;
+
+
+  .txt{
+    width: 100%;
+
+    padding: 40px;
+  }
+  img{
+    width: 100%;
+    height: 500px;
+  }
+}
+
+}
+.talking{
+  h2{
+text-align: center;
+  }
+}
+.people{
+  flex-direction: column;
+  .person{
+  img{
+    width: 200px !important;
+    border-radius: 100px !important;
+    margin-bottom: 10px;
+  }
+  h2{margin-bottom: 5px;}
+}
+
+}
+.bottomsignup{
+  height: 600px;
+
+  h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+  }
+  .bottomup{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+
+    input{
+      width: 95% !important;
+      height: 45px;
+    }
+
+    .bottombutton{
+      text-align: center;
+      height: 45px;
+      width: 95%;
+      margin: 10px 10px;
+      line-height: 30px;
+      font-size: 25px;
+    }
+
+}
+
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+
+
+  ul{
+  font-size: 25px;
+  margin: 30px 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+
+  .social{
+
+    margin: 35px 40px;
+    text-align: center;
+    flex-wrap: wrap;
+
+      i{
+        font-size: 40px ;
+      }
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+}
